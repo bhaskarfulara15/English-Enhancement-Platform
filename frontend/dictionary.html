@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary | English Learning App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 English Learning App
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="daily-question.html">Daily Question</a></li>
+            <li><a href="quiz.html">Weekly Quiz</a></li>
+            <li><a href="dictionary.html" class="active">Dictionary</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="page-hero">
+
+        <div class="hero-content">
+
+            <h1>📖 Smart English Dictionary</h1>
+
+            <p>
+                Search any English word and instantly discover its meaning,
+                pronunciation, example usage, and grammatical information.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DICTIONARY SECTION ================= -->
+    <section class="dictionary-section">
+
+        <div class="container">
+
+            <!-- Search Card -->
+            <div class="card search-card">
+
+                <h2>Search a Word</h2>
+
+                <p class="subtitle">
+                    Improve your vocabulary by exploring new words every day.
+                </p>
+
+                <div class="search-box">
+
+                    <input
+                        type="text"
+                        id="wordInput"
+                        placeholder="Enter a word...">
+
+                    <button
+                        class="btn primary-btn"
+                        onclick="searchWord()">
+                        🔍 Search
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Result Card -->
+            <div
+                class="card result-card"
+                id="resultCard"
+                style="display:none;">
+
+                <h2 id="wordTitle"></h2>
+
+                <div class="result-item">
+                    <strong>Meaning:</strong>
+                    <span id="meaning"></span>
+                </div>
+
+                <div class="result-item">
+                    <strong>Example:</strong>
+                    <span id="example"></span>
+                </div>
+
+                <div class="result-item">
+                    <strong>Part of Speech:</strong>
+                    <span id="pos"></span>
+                </div>
+
+                <div class="audio-section">
+
+                    <h4>🔊 Pronunciation</h4>
+
+                    <audio
+                        id="audio"
+                        controls
+                        style="display:none;">
+                    </audio>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= VOCABULARY TIPS ================= -->
+    <section class="tips-section">
+
+        <div class="container">
+
+            <h2>💡 Vocabulary Learning Tips</h2>
+
+            <div class="tips-grid">
+
+                <div class="tip-card">
+                    <h3>📘 Learn Daily</h3>
+                    <p>Learn at least one new word every day.</p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>✍ Use in Sentences</h3>
+                    <p>Create your own sentences using new words.</p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>🎧 Listen Carefully</h3>
+                    <p>Practice pronunciation using audio support.</p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>📚 Revise Weekly</h3>
+                    <p>Review previously learned vocabulary regularly.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+
+        <div class="footer-content">
+
+            <h3>📖 English Learning App</h3>
+
+            <p>
+                Expand Your Vocabulary • Improve Communication • Learn Better
+            </p>
+
+            <div class="footer-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="videos.html">Videos</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 English Learning App. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Dictionary JS -->
+    <script src="js/dictionary.js"></script>
+
+</body>
+
+</html>

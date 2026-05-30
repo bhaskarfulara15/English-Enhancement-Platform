@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | English Learning App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <div class="logo">
+            📚 English Learning App
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="register.html" class="btn register-btn">Register</a>
+        </div>
+    </nav>
+
+    <!-- ================= LOGIN SECTION ================= -->
+    <section class="auth-section">
+
+        <div class="auth-container">
+
+            <!-- Left Side -->
+            <div class="auth-info">
+
+                <h1>🔐 Welcome Back!</h1>
+
+                <p>
+                    Continue your English learning journey and track your
+                    progress through quizzes, daily questions, videos,
+                    dictionary searches, and personalized analytics.
+                </p>
+
+                <div class="auth-features">
+                    <div>✅ Daily English Questions</div>
+                    <div>✅ Weekly Quiz Challenges</div>
+                    <div>✅ Smart Dictionary Access</div>
+                    <div>✅ Learning Video Library</div>
+                    <div>✅ Progress Dashboard</div>
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="card form-card">
+
+                <h2>Login</h2>
+
+                <p class="subtitle">
+                    Sign in to continue learning
+                </p>
+
+                <form id="loginForm" class="form">
+
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            required>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">
+                        Login
+                    </button>
+
+                </form>
+
+                <div class="auth-links">
+
+                    <p class="switch-text">
+                        Don't have an account?
+                        <a href="register.html">Register Here</a>
+                    </p>
+
+                    <a href="index.html" class="back-home">
+                        ← Back to Home
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | English Learning App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 English Learning App
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="btn login-btn">Login</a>
+        </div>
+
+    </nav>
+
+    <!-- ================= REGISTER SECTION ================= -->
+    <section class="auth-section">
+
+        <div class="auth-container">
+
+            <!-- Left Content -->
+            <div class="auth-info">
+
+                <h1>🎓 Start Your English Learning Journey</h1>
+
+                <p>
+                    Create your account and gain access to daily assignments,
+                    quizzes, vocabulary tools, learning videos, and progress
+                    tracking features.
+                </p>
+
+                <div class="auth-features">
+
+                    <div>✅ Daily English Assignments</div>
+                    <div>✅ Weekly Skill Quizzes</div>
+                    <div>✅ Smart Dictionary</div>
+                    <div>✅ Learning Video Tutorials</div>
+                    <div>✅ Personal Progress Tracking</div>
+
+                </div>
+
+            </div>
+
+            <!-- Register Form -->
+            <div class="card form-card">
+
+                <h2>📝 Create Account</h2>
+
+                <p class="subtitle">
+                    Start improving your English today
+                </p>
+
+                <form id="registerForm" class="form">
+
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Create password"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+
+                        <label class="select-label">
+                            Learning Level
+                        </label>
+
+                        <select id="level" class="select-box">
+
+                            <option value="Beginner">
+                                Beginner
+                            </option>
+
+                            <option value="Intermediate">
+                                Intermediate
+                            </option>
+
+                            <option value="Advanced">
+                                Advanced
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn">
+
+                        Create Account
+                    </button>
+
+                </form>
+
+                <div class="auth-links">
+
+                    <p class="switch-text">
+
+                        Already have an account?
+
+                        <a href="login.html">
+                            Login Here
+                        </a>
+
+                    </p>
+
+                    <a href="index.html" class="back-home">
+                        ← Back to Home
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+
+        <div class="footer-content">
+
+            <h3>📚 English Learning App</h3>
+
+            <p>
+                Learn • Practice • Improve • Achieve
+            </p>
+
+            <p class="copyright">
+                © 2026 English Learning App. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

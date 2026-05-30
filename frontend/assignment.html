@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Assignment | English Learning App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 English Learning App
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="assignment.html" class="active">Assignment</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="dictionary.html">Dictionary</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- ================= PAGE HERO ================= -->
+    <section class="page-hero">
+
+        <div class="hero-content">
+
+            <h1>📘 Daily English Assignment</h1>
+
+            <p>
+                Complete one assignment every day to strengthen your
+                grammar, vocabulary, sentence formation, and overall
+                communication skills.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ASSIGNMENT SECTION ================= -->
+    <section class="assignment-section">
+
+        <div class="container">
+
+            <div class="card assignment-card">
+
+                <h2>Today's Practice</h2>
+
+                <p class="subtitle">
+                    Consistency is the key to mastering English.
+                </p>
+
+                <div id="questionBox" class="assignment-box">
+
+                    <div class="question-header">
+                        <span>📝 Question</span>
+                    </div>
+
+                    <p id="question" class="question-text">
+                        Loading question...
+                    </p>
+
+                    <input
+                        type="text"
+                        id="answer"
+                        class="input-answer"
+                        placeholder="Type your answer here">
+
+                    <button
+                        onclick="submitAnswer()"
+                        class="btn primary-btn">
+
+                        Submit Answer
+                    </button>
+
+                </div>
+
+                <p id="result" class="result-box"></p>
+
+                <div class="assignment-actions">
+
+                    <a href="dashboard.html" class="btn secondary-btn">
+                        ⬅ Back to Dashboard
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= LEARNING TIPS ================= -->
+    <section class="tips-section">
+
+        <div class="container">
+
+            <h2>💡 Daily Learning Tips</h2>
+
+            <div class="tips-grid">
+
+                <div class="tip-card">
+                    <h3>📖 Read Daily</h3>
+                    <p>
+                        Spend 15 minutes reading English articles,
+                        books, or blogs.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>✍ Practice Writing</h3>
+                    <p>
+                        Write short paragraphs using newly learned words.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>🎧 Improve Listening</h3>
+                    <p>
+                        Listen to English podcasts and videos regularly.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>🗣 Speak More</h3>
+                    <p>
+                        Practice speaking English confidently every day.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MOTIVATION ================= -->
+    <section class="motivation-section">
+
+        <div class="container">
+
+            <div class="motivation-card">
+
+                <h2>🌟 Keep Going!</h2>
+
+                <p>
+                    Every assignment completed today is a step closer
+                    to becoming fluent in English.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+
+        <div class="footer-content">
+
+            <h3>📚 English Learning App</h3>
+
+            <p>
+                Learn • Practice • Improve • Achieve
+            </p>
+
+            <div class="footer-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="dictionary.html">Dictionary</a>
+                <a href="videos.html">Videos</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 English Learning App. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/assignment.js"></script>
+
+</body>
+
+</html>

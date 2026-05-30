@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Quiz | English Learning App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 English Learning App
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="assignment.html">Assignment</a></li>
+            <li><a href="quiz.html" class="active">Quiz</a></li>
+            <li><a href="dictionary.html">Dictionary</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="progress.html">Progress</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="page-hero">
+
+        <div class="hero-content">
+
+            <h1>🧠 Weekly English Quiz</h1>
+
+            <p>
+                Test your grammar, vocabulary, and sentence construction
+                skills through interactive quizzes.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= QUIZ SECTION ================= -->
+    <section class="quiz-section">
+
+        <div class="container">
+
+            <div class="card quiz-card">
+
+                <h2>Weekly Assessment</h2>
+
+                <p class="subtitle">
+                    Challenge yourself and measure your progress.
+                </p>
+
+                <form id="quizForm" class="quiz-form">
+
+                    <!-- QUESTION 1 -->
+                    <div class="question-box">
+
+                        <div class="question-number">
+                            Question 1
+                        </div>
+
+                        <p class="question">
+                            Choose the correct sentence:
+                        </p>
+
+                        <label class="option">
+                            <input type="radio" name="q1" value="a">
+                            <span>She go to school</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="q1" value="b">
+                            <span>She goes to school</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="q1" value="c">
+                            <span>She going school</span>
+                        </label>
+
+                    </div>
+
+                    <!-- QUESTION 2 -->
+                    <div class="question-box">
+
+                        <div class="question-number">
+                            Question 2
+                        </div>
+
+                        <p class="question">
+                            Fill in the blank:
+                            <strong>They ___ playing.</strong>
+                        </p>
+
+                        <label class="option">
+                            <input type="radio" name="q2" value="a">
+                            <span>is</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="q2" value="b">
+                            <span>are</span>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="q2" value="c">
+                            <span>am</span>
+                        </label>
+
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">
+                        Submit Quiz
+                    </button>
+
+                </form>
+
+                <p id="result" class="result-box"></p>
+
+                <div class="quiz-actions">
+
+                    <a href="dashboard.html" class="btn secondary-btn">
+                        ⬅ Back to Dashboard
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= QUIZ BENEFITS ================= -->
+    <section class="tips-section">
+
+        <div class="container">
+
+            <h2>🎯 Why Take Weekly Quizzes?</h2>
+
+            <div class="tips-grid">
+
+                <div class="tip-card">
+                    <h3>📈 Track Growth</h3>
+                    <p>
+                        Monitor improvements in grammar and vocabulary.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>🧠 Improve Memory</h3>
+                    <p>
+                        Reinforce concepts learned during daily practice.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>⚡ Identify Weak Areas</h3>
+                    <p>
+                        Discover topics that require additional attention.
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>🏆 Build Confidence</h3>
+                    <p>
+                        Gain confidence by testing your English skills.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MOTIVATION ================= -->
+    <section class="motivation-section">
+
+        <div class="container">
+
+            <div class="motivation-card">
+
+                <h2>🌟 Learning Quote</h2>
+
+                <p>
+                    "The beautiful thing about learning is that nobody
+                    can take it away from you."
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="main-footer">
+
+        <div class="footer-content">
+
+            <h3>📚 English Learning App</h3>
+
+            <p>
+                Learn • Practice • Improve • Achieve
+            </p>
+
+            <div class="footer-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="assignment.html">Assignment</a>
+                <a href="dictionary.html">Dictionary</a>
+                <a href="videos.html">Videos</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 English Learning App. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/quiz.js"></script>
+
+</body>
+
+</html>
