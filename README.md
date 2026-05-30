@@ -1,5 +1,5 @@
 English Enhancment Project that help you to enhance your english skills.<br><br><br>
-Features are : 
+<b>Features are : </b>
 <ul>
   <li>Weekly Quiz</li>
   <li>Daily Task</li>
@@ -9,21 +9,20 @@ Features are :
   
 <b>Technology Used :</b>
 <ul>
-  <li>FrontEnd:</li>
+  <b><li>FrontEnd:</li></b>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>Java Script</li>
   </ul>
-  <li>BackEnd</li>
+  <b><li>BackEnd</li></b>
   <ul>
     <li>Node.JS</li>
     <li>Angular.JS</li>
   </ul> 
-  <li>DataBase
+  <b><li>DataBase</li></b>
     <ul>
       <li>MySQL</li>
     </ul>
-  </li>
 </ul>
 
