@@ -7,7 +7,7 @@ Features are :
   <li>Inbuild Dictionary</li>
   </ul>  
   
-Technology Used :
+<b>Technology Used :</b>
 <ul>
   <li>FrontEnd:</li>
   <ul>
