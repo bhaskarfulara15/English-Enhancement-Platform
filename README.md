@@ -25,5 +25,5 @@ Technology Used :
       <li>MySQL</li>
     </ul>
   </li>
-  <li></li>
 </ul>
+
