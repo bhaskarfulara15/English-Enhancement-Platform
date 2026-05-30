@@ -1,4 +1,4 @@
-English Enhancment Project that help you to enhance your english skills.
+English Enhancment Project that help you to enhance your english skills.<br>
 features are : 
 <ul>
   <li>Weekly Quiz</li>
